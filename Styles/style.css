@@ -1,0 +1,214 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgb(255, 235, 220);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 235, 220, 1) 0%,
+    rgba(250, 255, 254, 1) 50%,
+    rgba(255, 240, 162, 1) 100%
+  );
+  margin: 0;
+  border: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+}
+
+footer {
+  display: flex;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+}
+
+main {
+  display: flex;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  background-image: url(imgs/BG-banner.png);
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o conteúdo da div */
+  background-position: center;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 75px;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  margin: 0;
+}
+
+.nav {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  padding: 5px;
+  color: rgb(61, 61, 61);
+}
+
+.foot {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  font-size: 16px;
+  padding: 5px;
+  color: rgb(61, 61, 61);
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.W-contact {
+  display: flex;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  background-color: rgb(23, 182, 23);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.W-contact:hover {
+  background-color: rgb(13, 90, 13);
+}
+
+.W-contact a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 400px;
+}
+
+#rolagem {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 30px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+  z-index: 3;
+}
+
+.whats {
+  height: 40px;
+  width: auto;
+  padding-right: 5px;
+}
+
+.banner {
+  color: white;
+  align-items: center;
+  display: absolute;
+  width: 80%;
+  height: 600px;
+  padding-top: 110px;
+  padding-bottom: 20px;
+}
+.banner a {
+  background-color: rgb(23, 182, 23);
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.banner a:hover {
+  background-color: rgb(13, 90, 13);
+}
+
+.section-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #e2001a;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  width: 80%;
+  padding-top: 50px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0);
+  pointer-events: none;
+  position: relative;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.384);
+  border-radius: 15px;
+}
+.card img {
+  height: 360px;
+  width: 360px;
+  border-radius: 15px;
+  position: relative;
+}
+.label {
+  z-index: 2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgb(237, 3, 30) 20.8%,
+    rgb(242, 121, 1) 74.4%
+  );
+  text-align: center;
+  margin-top: -20px;
+  position: relative;
+  color: aliceblue;
+  font-size: 22px;
+}
+
+.Sobre-Empresa {
+  background-color: #9c0012;
+  color: aliceblue;
+  padding: 50px;
+  display: flex;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+}
+.sobre {
+  width: 80%;
+  height: auto;
+}
+
+.sobre h2 {
+  display: flex;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  padding-bottom: 20px;
+}
+.sobre p {
+  display: flex;
+  justify-content: center; /* Centraliza verticalmente */
+  font-size: 25px;
+  text-align: justify;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .nav {
+    width: 80%;
+    height: 100px;
+    font-size: 16px;
+    padding: 5px;
+  }
+}
